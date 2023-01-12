@@ -1,0 +1,39 @@
+body {
+    background-color:pink;
+}
+
+.new-layout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.new-layout div {
+    background-color: aliceblue;
+    width: 100px;
+    height: 200px;
+    flex-basis: 10x;
+    border: 1px dashed rgb(156, 253, 126);
+    margin: 20px;
+}
+
+* {
+    margin: 5px;
+}
+
+#parent {
+    display: flex;
+    background: red;
+    width: 100vw;
+    height: 50vh;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+}
+
+.child {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}
+
